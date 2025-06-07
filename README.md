@@ -79,3 +79,6 @@ activate
 - 2.``uv pip install -r pyproject.toml  ``を実行
 - 3.``main.py``のdirにスクショを保存したディレクトリ名を入れる
 - 4.``uv run python main.py``
+
+## 改善点
+notebookLMに入るように章ごとで分けられるといいかも
