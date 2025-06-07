@@ -26,8 +26,6 @@ set cropy to 0
 -- リサイズ横(切り抜く前のサイズ換算=画面横/切り抜き横*仕上がり横)
 set resizew to 0
 
--- フォルダが存在しない場合は作成
-do shell script "mkdir -p " & quoted form of savepath
 
 if pagedir = 1 then
     set keychar to (ASCII character 28)
